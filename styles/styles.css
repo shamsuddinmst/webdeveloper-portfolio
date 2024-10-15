@@ -8,6 +8,11 @@ body {
 
 }
 
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
 .text-primary {
     color: #fd6e0a;
 }
@@ -105,5 +110,22 @@ nav a {
 .about {
     padding: 130px;
     background: #fff8f3;
+    margin-top: 90px;
+    text-align: center;
+
+
+
+
+}
+
+.about-contener {
+    display: flex;
+
+    justify-content: space-around;
+}
+
+.section-description {
+
+    text-align: center;
 
 }
