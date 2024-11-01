@@ -172,10 +172,7 @@ nav a {
 
 /* resume styles  */
 
-.resume-section {
-    /* text-align: center;
-    align-items: center; */
-}
+
 
 .resume-container {
     display: flex;
@@ -223,3 +220,70 @@ textarea {
     border: 0;
     width: 100%;
 }
+
+/* responsive styles */
+
+/* mobile devices */
+
+@media screen and (max-width:576px) {
+    .header {
+        background-image: none;
+    }
+
+
+
+    .skills-container,
+    .banner,
+    nav>ul,
+    nav,
+    .resume-container,
+    footer,
+    .about-contener {
+        flex-direction: column;
+    }
+
+    .banner .profile-pic {
+        width: 100%;
+    }
+
+    .banner,
+    #what-i-do-descripption {
+        padding: 20px;
+    }
+
+    nav>ul {
+        gap: 10px;
+    }
+
+    .btn-primary {
+        padding-bottom: 15px;
+    }
+
+    footer,
+    .about {
+        padding: 10px;
+    }
+
+    .footer-column {
+        width: 100%;
+
+    }
+
+    .contact input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 80%;
+    }
+
+    .social-links {
+        text-align: center;
+    }
+
+
+
+
+
+
+}
+
+@media screen and (max-width: 576px)and (max-width:960px) {}
